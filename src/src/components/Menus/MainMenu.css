@@ -1,0 +1,54 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.menu > div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+
+.menuLink {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menuLink > a {
+    transition: 0.3s;
+    text-decoration: none !important;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.menuLink:hover > a {
+    color: #EF3A48 !important;
+}
+
+/* Telas maior que 1008px de largura */
+@media only screen and (min-width: 1008px) {
+    .menu > div {
+        width: 30%;
+    }
+}
+
+/* Telas de 641px a 1007px de largura */
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+    .menu > div {
+        width: 50%;
+    }
+}
+
+/* Telas de até 640px de largura */
+@media only screen and (max-width: 640px) {
+    .menu > div {
+        width: 90%;
+    }
+}

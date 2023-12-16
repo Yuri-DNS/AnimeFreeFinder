@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Tungsten';
+    font-style: 'Bold';
+    src: local(''),
+    url('../../assets/fonts/Tungsten-Bold.ttf');
+}
+
+aside{
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+}
